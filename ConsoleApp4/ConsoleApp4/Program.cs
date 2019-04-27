@@ -19,7 +19,6 @@ namespace ConsoleApp3
 
             }
             Console.Clear();
-            //Console.WriteLine("Mano irgi");
             Console.ReadLine();
         }
     }
