@@ -18,9 +18,9 @@ namespace ConsoleApp3
             vardas = Console.ReadLine();
             Console.WriteLine("Įveskite pavarde:");
             pavarde = Console.ReadLine();
-       
-            Console.Write(vardas + " " + pavarde);
-           
+
+            Console.WriteLine("{0} {1}", vardas, pavarde);
+
             Console.ReadLine();
         }
     }
