@@ -13,7 +13,7 @@ namespace sekundes
         {
             int skaicius;
             Console.WriteLine("Įveskite skaičių (sekundes):");
-            skaicius = Convert.ToInt16(Console.ReadLine());
+            skaicius = Convert.ToInt32(Console.ReadLine());
             TimeSpan laikas = TimeSpan.FromSeconds(skaicius);
             DateTime dateTime = DateTime.Today.Add(laikas);
             string val_min_sek = dateTime.ToString("hh:mm:ss");
