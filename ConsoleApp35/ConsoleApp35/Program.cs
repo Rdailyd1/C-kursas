@@ -8,7 +8,6 @@ namespace ConsoleApp2
 {
     class laipsniai
     {
-        //master variables
 
         public int kelvin(int celcius)
         {
