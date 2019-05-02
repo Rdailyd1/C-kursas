@@ -11,14 +11,14 @@ namespace ConsoleApp3
 
         static void Main(string[] args)
         {
-            double skaicius = 26;
-            int konv_sk = Convert.ToInt32(skaicius);
-            short sh_sk = Convert.ToInt16(skaicius);
-            byte b_sk = Convert.ToByte(skaicius);
+            double skaicius = 22878778787878;
+            int konv_sk = (int)skaicius;
+            short sh_sk =(short)(skaicius);
+            byte b_sk = (byte)(skaicius);
 
             Console.WriteLine("Int: {0}",konv_sk);
             Console.WriteLine("Short: {0}", sh_sk);
-            Console.WriteLine("Bytet: {0}", b_sk);
+            Console.WriteLine("Byte: {0}", b_sk);
 
             Console.ReadLine();
         }
