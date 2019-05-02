@@ -30,7 +30,7 @@ namespace NM2_8
             Console.WriteLine("Įveskite koordinate N:");
             kord_n = Convert.ToInt32(Console.ReadLine());
 
-            bool tikrinimas = (kord_m > kord_x) && (kord_m < kord_x1) && (kord_n > kord_y) && (kord_n < kord_y1);
+            bool tikrinimas = (kord_m >= kord_x) && (kord_m <= kord_x1) && (kord_n >= kord_y) && (kord_n <= kord_y1);
             Console.WriteLine("M.N taskas patenka i staciakampi (True-patenka, False-nepatenka): {0}", tikrinimas);
             Console.ReadLine();
         }
