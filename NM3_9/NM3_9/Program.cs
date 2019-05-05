@@ -20,7 +20,7 @@ namespace ConsoleApp3
                 case 1:
                     Console.WriteLine("Iveskite spinduli: ");
                     int spind = Convert.ToInt16(Console.ReadLine());
-                    double skrit_plotas = Math.PI*spind*spind;
+                    double skrit_plotas = Math.PI * spind * spind;
                     Console.WriteLine("Skritulio plotas: {0}", skrit_plotas);
                     break;
                 case 2:
@@ -28,7 +28,7 @@ namespace ConsoleApp3
                     int A_krastine = Convert.ToInt16(Console.ReadLine());
                     Console.WriteLine("Iveskite krastine B: ");
                     int B_krastine = Convert.ToInt16(Console.ReadLine());
-                    int stac_plotas =A_krastine * B_krastine;
+                    int stac_plotas = A_krastine * B_krastine;
                     Console.WriteLine("Staciakampio plotas: {0}", stac_plotas);
                     break;
                 case 3:
