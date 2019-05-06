@@ -15,6 +15,7 @@ namespace ConsoleApp42
             int sk = int.Parse(Console.ReadLine());
             for (int i = 0; i < sk; i++)
             {
+                Console.SetCursorPosition(1, 1);
                 Thread.Sleep(50); // milisekundes
                 Console.Write("#");
             }
