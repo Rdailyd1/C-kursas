@@ -46,7 +46,7 @@ namespace WindowsFormsApp2
             if (!int.TryParse(tbugis.Text, out temp)) ;
             {
                 string s = tbugis.Text;
-                //s = s.Remove(s.Length - 1);
+                s = s.Remove(s.Length - 1);
                 tbugis.Text = s;
             }
         }
