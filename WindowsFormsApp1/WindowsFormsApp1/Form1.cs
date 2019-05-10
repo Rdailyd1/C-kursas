@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             tboutput.Clear();
             tboutput.Text = String.Format("Sveikas {0}", tbvardas.Text);
             tboutput.AppendText(Environment.NewLine);
-            tboutput.AppendText = String.Format("Malonu tave matyt");
+            tboutput.Text = String.Format("Malonu tave matyt");
         }    
     }
 }
