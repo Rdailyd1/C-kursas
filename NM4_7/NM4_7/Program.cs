@@ -34,7 +34,13 @@ namespace ConsoleApp44
             {
                 Console.Write("{0}, ", skaicius2);
             }
-           
+            Console.WriteLine();
+            Array.Sort(masyvas2);
+            Console.WriteLine("Surusiuotas masyvas:");
+            foreach (var skaicius2 in masyvas2)
+            {
+                Console.Write("{0}, ", skaicius2);
+            }
             Console.ReadLine();
         }
     }
