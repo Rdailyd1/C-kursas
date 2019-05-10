@@ -27,7 +27,7 @@ namespace ConsoleApp44
             int a = 0;
 
             Console.WriteLine("Antras masyvas");
-            for (int i = 0; i < masyvas2.Length; i++)
+            for (int i = 0; i <= masyvas2.Length+1; i++)
             {
 
                 if (i != 4 && i != 6)
