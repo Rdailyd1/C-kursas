@@ -21,10 +21,7 @@ namespace WindowsFormsApp4
         {
             string vardas = "Rolandas";
             DateTime sdata = DateTime.Now;
-            for (int i = 0; i < 2; i++)
-            {
-                MessageBox.Show(String.Format(vardas, sdata));
-            }
+            MessageBox.Show(String.Format(vardas +" "+ sdata.ToString("yyyy-mm-dd")));
         }
     }
 }
