@@ -27,7 +27,7 @@ namespace ConsoleApp56
                 {
                     Console.WriteLine("Daugiau");
                 }
-                 else if (vat_sk == skaicius)
+                 else 
                 {
                     Console.WriteLine("Atspejote");
                     s = 1;
