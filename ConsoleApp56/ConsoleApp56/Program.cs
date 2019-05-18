@@ -14,7 +14,7 @@ namespace ConsoleApp56
             Random rnd = new Random();
             int skaicius = rnd.Next(10);
             int vat_sk = 0;
-            int s = 0;
+            bool s = false;
             for (int i = 0; i < 4; i++)
             {
                 Console.WriteLine("Iveskite savo skaiciu");
@@ -30,11 +30,11 @@ namespace ConsoleApp56
                  else 
                 {
                     Console.WriteLine("Atspejote");
-                    s = 1;
+                    s = true;
                     break; 
                 }
             }
-            if (s == 0)
+            if (s == false)
             {
                 Console.WriteLine("Neatspejote");
             }
